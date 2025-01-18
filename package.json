@@ -1,0 +1,41 @@
+{
+  "name": "tanstack-query-blog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite --port=3001",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "devDependencies": {
+    "@tanstack/router-cli": "^1.95.1",
+    "@tanstack/router-devtools": "^1.95.1",
+    "@tanstack/router-plugin": "^1.95.1",
+    "@types/lodash": "^4.17.14",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "json-server": "1.0.0-beta.3",
+    "postcss": "^8.4.49",
+    "supabase": ">=1.8.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.12",
+    "@tanstack/react-query": "^5.63.0",
+    "@tanstack/react-query-devtools": "^5.63.0",
+    "@tanstack/react-query-persist-client": "^5.64.0",
+    "@tanstack/react-router": "^1.95.1",
+    "idb-keyval": "^6.2.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.3"
+  }
+}
